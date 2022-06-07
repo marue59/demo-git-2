@@ -3,22 +3,22 @@
 ## Présentation : 
 Ce projet est géré par git.
 
-## Commande : 
-* pour initialiser git dand un dossier : 
+## Commandes : 
+* pour initialiser git dans un dossier : 
 
 ```
 git init
 ```
 
-* si c'est votre premier git sur ce pc, configurer le nom, prénom  ainsi que l'email :
+* si c'est votre premier git sur ce pc, configurer le nom, prénom ainsi que l'email :
 
 ```
-git config --global user.name
+git config --global user.name "mon_nom"
 "<votre nom et prenom>"
 ```
 
 ```
-git config --global user.email
+git config --global user.email "mon_email"
 "<votre email>"
 ```
 
@@ -36,7 +36,7 @@ git add README.md
 
 * sauvegarder un commit 
 ```
-git commit -m"message"
+git commit -m "message"
 ```
 
 * ouvert du logiciel graphique, voir les commits  :
